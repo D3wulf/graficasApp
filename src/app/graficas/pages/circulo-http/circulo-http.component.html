@@ -1,0 +1,18 @@
+<h1>Gráfica cogida de una peticion HTTP</h1>
+<hr>
+
+<div *ngIf="doughnutChartData.length === 0;else divGrafica" class="alert alert-info">Cargando datos de programadores...</div>
+
+
+<div class="row">
+    <div class="col">
+        <ng-template #divGrafica>
+            <div style="display: block">
+                <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [colors]="colors" [chartType]="doughnutChartType">
+        </canvas>
+            </div>
+            <span class="float-end text-primary">Información de programadores en millones</span>
+        </ng-template>
+
+    </div>
+</div>
