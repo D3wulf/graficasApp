@@ -1,0 +1,9 @@
+{
+    "grafica": {
+        "Angular": 2700,
+        "Node": 2000,
+        "Laravel": 1400,
+        "ReactJs": 1350,
+        "PHP": 1123
+    }
+}
