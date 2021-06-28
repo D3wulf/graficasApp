@@ -32,3 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm install chart.js@2.9.3 --save
 npm install ng2-charts@2.2.3 --save
 in your project then run npm i and restart the project.
+
+# La carpeta graficasServer es el backend de la aplicación.
+Se debe ejecutar dentro de la carpeta graficasServer:
+json-server --watch db.json 
